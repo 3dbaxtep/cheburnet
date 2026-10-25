@@ -1,39 +1,226 @@
 {
   "international": [
-    {"id":"google","title":"Google DNS","host":"8.8.8.8","country":"USA","probe":"ICMP"},
-    {"id":"cloudflare","title":"Cloudflare","host":"1.1.1.1","country":"USA","probe":"ICMP"},
-    {"id":"opendns","title":"OpenDNS","host":"208.67.222.222","country":"USA","probe":"ICMP"},
-    {"id":"quad9","title":"Quad9","host":"9.9.9.9","country":"CHE","probe":"ICMP"},
-    {"id":"quad9b","title":"Quad9 (2)","host":"149.112.112.112","country":"CHE","probe":"ICMP"},
-    {"id":"adguard","title":"AdGuard","host":"94.140.14.14","country":"CYP","probe":"ICMP"},
-    {"id":"alidns","title":"AliDNS","host":"223.5.5.5","country":"CHN","probe":"ICMP"},
-    {"id":"baidu","title":"Baidu","host":"180.76.76.76","country":"CHN","probe":"ICMP"},
-    {"id":"kt","title":"KT (Корея)","host":"168.126.63.1","country":"KOR","probe":"ICMP"},
-    {"id":"br1","title":"Brasil DNS","host":"200.221.11.100","country":"BRA","probe":"ICMP"},
-    {"id":"br2","title":"Brasil (2)","host":"200.160.2.3","country":"BRA","probe":"ICMP"},
-    {"id":"za1","title":"ZA DNS","host":"196.11.240.215","country":"ZAF","probe":"ICMP"},
-    {"id":"za2","title":"ZA DNS 2","host":"102.128.0.1","country":"ZAF","probe":"ICMP"},
-    {"id":"telstra","title":"Telstra","host":"139.130.4.5","country":"AUS","probe":"ICMP"},
-    {"id":"au2","title":"AU DNS","host":"203.2.193.124","country":"AUS","probe":"ICMP"}
+    {
+      "id": "google",
+      "title": "Google DNS",
+      "host": "8.8.8.8",
+      "country": "USA",
+      "probe": "ICMP"
+    },
+    {
+      "id": "cloudflare",
+      "title": "Cloudflare",
+      "host": "1.1.1.1",
+      "country": "USA",
+      "probe": "ICMP"
+    },
+    {
+      "id": "opendns",
+      "title": "OpenDNS",
+      "host": "208.67.222.222",
+      "country": "USA",
+      "probe": "ICMP"
+    },
+    {
+      "id": "quad9",
+      "title": "Quad9",
+      "host": "9.9.9.9",
+      "country": "CHE",
+      "probe": "ICMP"
+    },
+    {
+      "id": "quad9b",
+      "title": "Quad9 (2)",
+      "host": "149.112.112.112",
+      "country": "CHE",
+      "probe": "ICMP"
+    },
+    {
+      "id": "adguard",
+      "title": "AdGuard",
+      "host": "94.140.14.14",
+      "country": "CYP",
+      "probe": "ICMP"
+    },
+    {
+      "id": "alidns",
+      "title": "AliDNS",
+      "host": "223.5.5.5",
+      "country": "CHN",
+      "probe": "ICMP"
+    },
+    {
+      "id": "baidu",
+      "title": "Baidu",
+      "host": "180.76.76.76",
+      "country": "CHN",
+      "probe": "ICMP"
+    },
+    {
+      "id": "kt",
+      "title": "KT (Корея)",
+      "host": "168.126.63.1",
+      "country": "KOR",
+      "probe": "ICMP"
+    },
+    {
+      "id": "br1",
+      "title": "Brasil DNS",
+      "host": "200.221.11.100",
+      "country": "BRA",
+      "probe": "ICMP"
+    },
+    {
+      "id": "br2",
+      "title": "Brasil (2)",
+      "host": "200.160.2.3",
+      "country": "BRA",
+      "probe": "ICMP"
+    },
+    {
+      "id": "za1",
+      "title": "ZA DNS",
+      "host": "196.11.240.215",
+      "country": "ZAF",
+      "probe": "ICMP"
+    },
+    {
+      "id": "za2",
+      "title": "ZA DNS 2",
+      "host": "102.128.0.1",
+      "country": "ZAF",
+      "probe": "ICMP"
+    },
+    {
+      "id": "telstra",
+      "title": "Telstra",
+      "host": "139.130.4.5",
+      "country": "AUS",
+      "probe": "ICMP"
+    },
+    {
+      "id": "au2",
+      "title": "AU DNS",
+      "host": "203.2.193.124",
+      "country": "AUS",
+      "probe": "ICMP"
+    }
   ],
   "ruBlocked": [
-    {"id":"sber","title":"Сбер","host":"sberbank.ru","country":"RUS","probe":"TCP"},
-    {"id":"tbank","title":"Т-Банк","host":"tinkoff.ru","country":"RUS","probe":"TCP"},
-    {"id":"rshb","title":"РСХБ","host":"rshb.ru","country":"RUS","probe":"TCP"},
-    {"id":"sovcom","title":"Совкомбанк","host":"sovcombank.ru","country":"RUS","probe":"TCP"},
-    {"id":"raiffeisen","title":"Райффайзен","host":"raiffeisen.ru","country":"RUS","probe":"TCP"},
-    {"id":"mkb","title":"МКБ","host":"mkb.ru","country":"RUS","probe":"TCP"}
+    {
+      "id": "sber",
+      "title": "Сбер",
+      "host": "sberbank.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "tbank",
+      "title": "Т-Банк",
+      "host": "tinkoff.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "rshb",
+      "title": "РСХБ",
+      "host": "rshb.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "sovcom",
+      "title": "Совкомбанк",
+      "host": "sovcombank.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "raiffeisen",
+      "title": "Райффайзен",
+      "host": "raiffeisen.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "mkb",
+      "title": "МКБ",
+      "host": "mkb.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    }
   ],
   "whitelist": [
-    {"id":"yandex","title":"Яндекс","host":"ya.ru","country":"RUS","probe":"TCP"},
-    {"id":"vk","title":"VK","host":"vk.com","country":"RUS","probe":"TCP"},
-    {"id":"mailru","title":"Mail.ru","host":"mail.ru","country":"RUS","probe":"TCP"},
-    {"id":"gosuslugi","title":"Госуслуги","host":"gosuslugi.ru","country":"RUS","probe":"TCP"},
-    {"id":"ozon","title":"Ozon","host":"ozon.ru","country":"RUS","probe":"TCP"},
-    {"id":"wildberries","title":"Wildberries","host":"wildberries.ru","country":"RUS","probe":"TCP"},
-    {"id":"psb","title":"ПСБ","host":"psbank.ru","country":"RUS","probe":"TCP"},
-    {"id":"2gis","title":"2ГИС","host":"2gis.ru","country":"RUS","probe":"TCP"},
-    {"id":"rutube","title":"Rutube","host":"rutube.ru","country":"RUS","probe":"TCP"},
-    {"id":"vtb","title":"ВТБ","host":"vtb.ru","country":"RUS","probe":"TCP"}
-  ]
+    {
+      "id": "yandex",
+      "title": "Яндекс",
+      "host": "ya.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "vk",
+      "title": "VK",
+      "host": "vk.com",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "mailru",
+      "title": "Mail.ru",
+      "host": "mail.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "gosuslugi",
+      "title": "Госуслуги",
+      "host": "gosuslugi.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "ozon",
+      "title": "Ozon",
+      "host": "ozon.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "wildberries",
+      "title": "Wildberries",
+      "host": "wildberries.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "psb",
+      "title": "ПСБ",
+      "host": "psbank.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "2gis",
+      "title": "2ГИС",
+      "host": "2gis.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "rutube",
+      "title": "Rutube",
+      "host": "rutube.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "vtb",
+      "title": "ВТБ",
+      "host": "vtb.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    }
+  ],
+  "_updated": "2026-10-25T19:03:00+03:00"
 }
