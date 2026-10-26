@@ -194,9 +194,9 @@
       "probe": "TCP"
     },
     {
-      "id": "psb",
-      "title": "ПСБ",
-      "host": "psbank.ru",
+      "id": "gazprom",
+      "title": "Газпромбанк",
+      "host": "gazprombank.ru",
       "country": "RUS",
       "probe": "TCP"
     },
