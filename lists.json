@@ -127,9 +127,9 @@
       "probe": "ICMP"
     },
     {
-      "id": "au4",
-      "title": "AU DNS 3",
-      "host": "202.60.88.98",
+      "id": "au5",
+      "title": "APNIC",
+      "host": "202.12.29.20",
       "country": "AUS",
       "probe": "ICMP"
     },
