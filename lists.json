@@ -71,13 +71,6 @@
       "probe": "ICMP"
     },
     {
-      "id": "cnnic",
-      "title": "CNNIC",
-      "host": "210.2.4.8",
-      "country": "CHN",
-      "probe": "ICMP"
-    },
-    {
       "id": "za1",
       "title": "ZA DNS",
       "host": "196.11.240.215",
@@ -199,9 +192,9 @@
       "probe": "TCP"
     },
     {
-      "id": "tass",
-      "title": "ТАСС",
-      "host": "tass.ru",
+      "id": "fontanka",
+      "title": "Фонтанка",
+      "host": "fontanka.ru",
       "country": "RUS",
       "probe": "TCP"
     },
