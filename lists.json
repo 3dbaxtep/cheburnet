@@ -64,17 +64,17 @@
       "probe": "ICMP"
     },
     {
-      "id": "br1",
-      "title": "Brasil DNS",
-      "host": "200.221.11.100",
-      "country": "BRA",
+      "id": "google3",
+      "title": "Google 3",
+      "host": "1.0.0.1",
+      "country": "USA",
       "probe": "ICMP"
     },
     {
-      "id": "br2",
-      "title": "Brasil (2)",
-      "host": "200.160.2.3",
-      "country": "BRA",
+      "id": "cnnic",
+      "title": "CNNIC",
+      "host": "210.2.4.8",
+      "country": "CHN",
       "probe": "ICMP"
     },
     {
@@ -127,10 +127,10 @@
       "probe": "ICMP"
     },
     {
-      "id": "br3",
-      "title": "Brasil (3)",
-      "host": "189.38.0.1",
-      "country": "BRA",
+      "id": "au3",
+      "title": "AU DNS 3",
+      "host": "202.60.88.98",
+      "country": "AUS",
       "probe": "ICMP"
     },
     {
