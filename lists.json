@@ -127,7 +127,7 @@
       "probe": "ICMP"
     },
     {
-      "id": "au3",
+      "id": "au4",
       "title": "AU DNS 3",
       "host": "202.60.88.98",
       "country": "AUS",
