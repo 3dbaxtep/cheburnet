@@ -143,20 +143,6 @@
   ],
   "ruBlocked": [
     {
-      "id": "rshb",
-      "title": "РСХБ",
-      "host": "rshb.ru",
-      "country": "RUS",
-      "probe": "TCP"
-    },
-    {
-      "id": "sovcom",
-      "title": "Совкомбанк",
-      "host": "sovcombank.ru",
-      "country": "RUS",
-      "probe": "TCP"
-    },
-    {
       "id": "raiffeisen",
       "title": "Райффайзен",
       "host": "raiffeisen.ru",
@@ -164,30 +150,9 @@
       "probe": "TCP"
     },
     {
-      "id": "mkb",
-      "title": "МКБ",
-      "host": "mkb.ru",
-      "country": "RUS",
-      "probe": "TCP"
-    },
-    {
       "id": "citilink",
       "title": "Ситилинк",
       "host": "citilink.ru",
-      "country": "RUS",
-      "probe": "TCP"
-    },
-    {
-      "id": "rosbank",
-      "title": "Росбанк",
-      "host": "rosbank.ru",
-      "country": "RUS",
-      "probe": "TCP"
-    },
-    {
-      "id": "open",
-      "title": "Открытие",
-      "host": "open.ru",
       "country": "RUS",
       "probe": "TCP"
     },
@@ -209,6 +174,41 @@
       "id": "vc",
       "title": "vc.ru",
       "host": "vc.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "magnit",
+      "title": "Магнит",
+      "host": "magnit.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "forbes",
+      "title": "Форбс",
+      "host": "forbes.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "interfax",
+      "title": "Интерфакс",
+      "host": "interfax.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "tass",
+      "title": "ТАСС",
+      "host": "tass.ru",
+      "country": "RUS",
+      "probe": "TCP"
+    },
+    {
+      "id": "e1",
+      "title": "E1.ru",
+      "host": "e1.ru",
       "country": "RUS",
       "probe": "TCP"
     }
