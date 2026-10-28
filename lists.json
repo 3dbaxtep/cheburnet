@@ -132,6 +132,13 @@
       "host": "61.9.194.49",
       "country": "AUS",
       "probe": "ICMP"
+    },
+    {
+      "id": "br1",
+      "title": "Brasil DNS",
+      "host": "200.221.11.100",
+      "country": "BRA",
+      "probe": "ICMP"
     }
   ],
   "ruBlocked": [
