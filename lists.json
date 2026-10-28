@@ -208,9 +208,9 @@
       "probe": "TCP"
     },
     {
-      "id": "vtb",
-      "title": "ВТБ",
-      "host": "vtb.ru",
+      "id": "vkvideo",
+      "title": "VK Видео",
+      "host": "vkvideo.ru",
       "country": "RUS",
       "probe": "TCP"
     }
