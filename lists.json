@@ -136,13 +136,6 @@
       "probe": "TCP"
     },
     {
-      "id": "cian",
-      "title": "Циан",
-      "host": "cian.ru",
-      "country": "RUS",
-      "probe": "TCP"
-    },
-    {
       "id": "citilink",
       "title": "Ситилинк",
       "host": "citilink.ru",
