@@ -1,0 +1,22 @@
+# Подпись и секреты
+upload-keystore.jks
+keystore.properties
+local.properties
+*.jks
+*.keystore
+
+# Сборка
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+
+# Прочее
+.DS_Store
+*.log

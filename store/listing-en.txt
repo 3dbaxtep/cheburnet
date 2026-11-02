@@ -1,0 +1,32 @@
+App name (max 30)
+Cheburnet — network check
+
+Short description (max 80)
+See what actually works: the whole internet, whitelists, or only them.
+
+Full description (max 4000)
+Cheburnet shows what actually works on your network: the whole internet, only some foreign sites, Russian internet without foreign resources, or only the government whitelist.
+
+Five modes at a glance:
+• ONLINE — the whole world is reachable.
+• PARTIAL — only countries that answered are highlighted.
+• WELCOME TO CHEBURNET — foreign resources are blocked, Russian internet still works.
+• WHITELIST ONLY — only the Ministry's whitelist is reachable.
+• NO CONNECTION — nothing responds.
+
+What is checked: 31 resources.
+• 21 international: Google, YouTube, GitHub, Wikipedia, Cloudflare, Amazon, X, Apple, Microsoft, Netflix, Reddit, OpenAI, BBC, Deutsche Welle, Le Monde, Yahoo Japan, Naver, Baidu, Globo, ABC Australia, Times of India.
+• 6 Russian outside the whitelist: RBC, Lenta.ru, Rambler, RIA Novosti, Gazeta.ru, KP.
+• 10 from the whitelist: Yandex, VK, Mail.ru, Gosuslugi, Ozon, Wildberries, PSB, 2GIS, Rutube, VTB.
+
+How it works:
+• Plain ICMP ping via the system /system/bin/ping.
+• Checks run in parallel; results appear as they arrive.
+• The globe rotates by itself, can be dragged, and highlights reachable countries.
+• The app estimates your location by IP (no GPS) and draws arcs to the countries that respond.
+
+No ads, no analytics, no sign-up. All settings stay on the device.
+
+The app does not collect personal data. IP-based city lookup uses a third-party service that only receives the request IP; coordinates are not stored. See the privacy policy for details.
+
+Cheburnet is an independent project, not affiliated with any government body or ISP. The name is a satirical reference to internet restrictions.
