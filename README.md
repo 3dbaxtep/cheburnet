@@ -152,10 +152,6 @@ app/src/main/assets/countries_mask.png   карта стран (176 регион
 app/src/main/assets/countries_map.json   id → код страны
 ```
 
-## Публикация
-
-Инструкция для Google Play и готовые ассеты — в [PUBLISH.md](PUBLISH.md).
-
 ## Лицензия
 
 MIT
