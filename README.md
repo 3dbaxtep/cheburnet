@@ -108,7 +108,7 @@
 
 ## Сборка
 
-Нужны JDK 17 и Android SDK 34.
+Нужны JDK 17 и Android SDK 36.
 
 ```bash
 ./gradlew assembleDebug
@@ -117,19 +117,23 @@
 
 Тесты: `./gradlew testDebugUnitTest`.
 
+Release-подпись: в репозитории **нет** `upload-keystore.jks` и
+`keystore.properties` — создайте свои (см. `PUBLISH.md`), иначе `assembleRelease`
+не соберётся. Debug-сборка работает без них.
+
 ## Установка
 
 ```bash
-adb install -r Cheburnet-1.11-release.apk
+adb install -r Cheburnet-*-release.apk
 ```
 
 Android 7.0+ (minSdk 24), разрешения только INTERNET и ACCESS_NETWORK_STATE.
 
 ## Для разработки
 
-В debug-сборке долгое нажатие на заголовок «ЧЕБУРНЕТ» переключает
-демо-сценарии: есть связь → частичная → чебурнет → только белые списки →
-нет связи. В release этого нет.
+Долгое нажатие на заголовок «ЧЕБУРНЕТ» открывает **режим обучения** —
+расширенный прогон (~210 российских хостов) с отчётом, который можно отправить
+в Telegram. В debug-сборке также доступны демо-сценарии.
 
 ## Структура
 
@@ -137,9 +141,11 @@ Android 7.0+ (minSdk 24), разрешения только INTERNET и ACCESS_N
 app/src/main/java/ru/cheburnet/
 ├── MainActivity.kt      точка входа
 ├── Model.kt             модели, вердикты, логика подсветки стран
-├── Targets.kt           ресурсы (15 + 6 + 10) и города
-├── Net.kt               проверка доступности (ICMP ping)
-├── IpLocation.kt        местоположение по IP
+├── Targets.kt           ресурсы (19 + 10 + 10) и города
+├── Net.kt               проверка: ICMP для IP, HTTPS для сайтов
+├── IpLocation.kt        местоположение по IP (без GPS)
+├── RemoteLists.kt       загрузка списков с GitHub
+├── Learning.kt          режим обучения и отчёт
 ├── CheckViewModel.kt    прогон проверки и состояние UI
 └── ui/                  Compose: глобус, экран, тема
 app/src/main/assets/countries_mask.png   карта стран (176 регионов)
